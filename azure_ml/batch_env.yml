@@ -1,0 +1,12 @@
+name: pd-batch-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - azureml-core
+      - azureml-dataset-runtime[fuse]
+      - numpy==1.26.4
+      - pandas==2.1.4
+      - pyarrow

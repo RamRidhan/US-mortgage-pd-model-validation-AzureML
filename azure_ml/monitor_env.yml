@@ -1,0 +1,14 @@
+name: pd-monitor-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mlflow-skinny<3
+      - azureml-mlflow
+      - numpy==1.26.4
+      - pandas==2.1.4
+      - scipy<1.12
+      - pyarrow
+      - requests
